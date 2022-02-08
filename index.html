@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body class="bi">
+
+	<div class="list">
+		<p class="f">Найдите:</p>
+		<p class="obj1l i">1.Лягушку</p>
+		<p class="obj2l i">2.Змею</p>
+		<p class="obj3l i">3.Попугая</p>
+		<p class="obj4l i">4.Богомола</p>
+		<p class="obj5l i">5.Бабочку</p>
+		<p class="obj6l i">6.Осу</p>
+		<p class="f">Ваш счёт:<span class="score"></span></p>
+	</div>
+
+	<img src="https://storage.googleapis.com/multi-static-content/previews/artage-io-thumb-dd9c0f064d5319bde15c9572624c8699.png" class="obj1">
+	<img src="https://www.publicdomainpictures.net/pictures/380000/velka/rattle-snake-in-strike-pose.png" class="obj2">
+	<img src="https://abrakadabra.fun/uploads/posts/2021-12/1639396355_45-abrakadabra-fun-p-popugai-bez-fona-55.png" class="obj3">
+	<img src="https://avatanplus.com/files/resources/original/5c83884b47e7516961cc661f.png" class="obj4">
+	<img src="https://thumb.tildacdn.com/tild6131-3864-4439-a265-633063663939/-/resize/298x/-/format/webp/3greenBT.png" class="obj5">
+	<img src="https://www.pro-dezservice.ru/wp-content/uploads/2020/09/Osa.webp" class="obj6">
+
+	<script type="text/javascript">
+		let score = 0;
+		document.querySelector(".score").innerHTML = score;
+		document.querySelector(".obj1").onclick = function(){
+			score = score + 1;
+			document.querySelector(".obj1").style.display = "none"
+			document.querySelector(".obj1l").style.textDecoration = "line-through"
+			alert("Вы нашли лягушку!")
+			document.querySelector(".score").innerHTML = score;
+		}
+		document.querySelector(".obj2").onclick = function(){
+			score = score + 1;
+			document.querySelector(".obj2").style.display = "none"
+			document.querySelector(".obj2l").style.textDecoration = "line-through"
+			alert("Вы нашли змею!")
+			document.querySelector(".score").innerHTML = score;
+		}
+		document.querySelector(".obj3").onclick = function(){
+			score = score + 1;
+			document.querySelector(".obj3").style.display = "none"
+			document.querySelector(".obj3l").style.textDecoration = "line-through"
+			alert("Вы нашли попугая!")
+			document.querySelector(".score").innerHTML = score;
+		}
+		document.querySelector(".obj4").onclick = function(){
+			score = score + 1;
+			document.querySelector(".obj4").style.display = "none"
+			document.querySelector(".obj4l").style.textDecoration = "line-through"
+			alert("Вы нашли богомола!")
+			document.querySelector(".score").innerHTML = score;
+		}
+		document.querySelector(".obj5").onclick = function(){
+			score = score + 1;
+			document.querySelector(".obj5").style.display = "none"
+			document.querySelector(".obj5l").style.textDecoration = "line-through"
+			alert("Вы нашли бабочку!")
+			document.querySelector(".score").innerHTML = score;
+		}
+		document.querySelector(".obj6").onclick = function(){
+			score = score + 1;
+			document.querySelector(".obj6").style.display = "none"
+			document.querySelector(".obj6l").style.textDecoration = "line-through"
+			alert("Вы нашли осу!")
+			document.querySelector(".score").innerHTML = score;
+		}
+	</script>
+</body>
+</html>

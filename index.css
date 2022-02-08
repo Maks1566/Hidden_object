@@ -1,0 +1,59 @@
+.bi {
+	background-image: url(forest.png);
+	background-size: 100% 100%;
+	background-attachment:fixed;
+}
+.list {
+	width: 150px;
+	background-color: #89ffdf;
+	border-radius: 20px;
+	position: absolute;
+}
+.f {
+	font-size: 25px; 
+	text-align: center; 
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.i {
+	font-size: 20px;
+	margin-top: 10px;	
+	text-align: center;
+	margin-bottom: 0px;
+}
+.obj1 {
+	position: absolute;
+	width: 80px;
+	top: 700px;
+	left: 925px;
+}
+.obj2 {
+	position: absolute;
+	width: 160px;
+	top: 760px;
+	left: 1400px;
+}
+.obj3 {
+	position: absolute;
+	width: 50px;
+	top: 400px;
+	left: 550px;
+}
+.obj4 {
+	position: absolute;
+	width: 80px;
+	top: 550px;
+	left: 330px;
+}
+.obj5 {
+	position: absolute;
+	width: 80px;
+	top: 300px;
+	left: 1100px;
+}
+.obj6 {
+	position: absolute;
+	width: 40px;
+	top: 270px;
+	left: 1550px;
+}
